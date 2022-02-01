@@ -9,12 +9,12 @@
   </head>
   <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="header">
       <div class="container">
         <!-- Основная навигация сайта -->
-        <nav class="site-nav">
+        <nav class="nav-menu">
           <!-- логотип сайта -->
-          <a href="./index.html" class="logo">
+          <a href="./index.html">
             <svg width="69" height="55" fill="#fff">
               <use href="./images/sprite.svg#icon-Logo"></use>
             </svg>
@@ -22,7 +22,7 @@
           <!-- Кнопка навигации -->
           <button
             type="button"
-            class="menu-button"
+            class="nav-menu__button"
             aria-expanded="false"
             aria-controls="menu-container"
             data-menu-button
@@ -33,15 +33,18 @@
               aria-label="Переключатель мобильного меню"
             >
               <use
-                class="icon-close"
+                class="nav-menu__button__icon-close"
                 href="./images/sprite.svg#icon-close"
               ></use>
-              <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+              <use
+                class="nav-menu__button__icon-menu"
+                href="./images/sprite.svg#icon-menu"
+              ></use>
             </svg>
           </button>
         </nav>
-        <!-- меню сайта -->
-        <div class="backdrop" data-menu>
+        <!-- Mobile-menu -->
+        <div class="menu-backdrop" data-menu>
           <div class="menu-container" id="menu-container" data-menu>
             <ul class="menu-list">
               <li class="menu-item">
@@ -57,25 +60,25 @@
                 <a href="#" class="menu-link">Контакты</a>
               </li>
             </ul>
-            <!-- контакты -->
-            <div class="contacts">
-              <a href="tel:+380441111111" class="contact-link"
-                >+38 044 111 11 11</a
-              >
-              <button class="button" type="button">онлайн-запись</button>
-            </div>
-            <!-- социальные сети -->
-            <ul class="social-links">
-              <li class="social-link">
-                <hr color="#303030" width="60px" />
-                <a href="https://www.instagram.com/?hl=ru">Instagram</a>
-              </li>
-              <li class="social-link">
-                <hr color="#303030" width="60px" />
-                <a href="https://www.youtube.com">Youtube</a>
-              </li>
-            </ul>
           </div>
+          <!-- контакты -->
+          <div class="contacts">
+            <a href="tel:+380441111111" class="contact-link"
+              >+38 044 111 11 11</a
+            >
+            <button class="button" type="button">онлайн-запись</button>
+          </div>
+          <!-- социальные сети -->
+          <ul class="social-links">
+            <li class="social-link">
+              <hr color="#303030" width="60px" />
+              <a href="https://www.instagram.com/?hl=ru">Instagram</a>
+            </li>
+            <li class="social-link">
+              <hr color="#303030" width="60px" />
+              <a href="https://www.youtube.com">Youtube</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
