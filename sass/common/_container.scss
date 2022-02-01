@@ -1,0 +1,17 @@
+.container {
+  min-width: 480px;
+  margin: 0 auto;
+  padding: 0 31px;
+
+  @media screen and (min-width: $tablet) {
+    max-width: 690px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    max-width: 1170px;
+  }
+}
+
+.container-flex {
+  display: flex;
+}

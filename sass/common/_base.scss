@@ -1,0 +1,21 @@
+/* Выставляем основные настройки по-умолчанию для body */
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  position: relative;
+  font-family: $font-stack;
+  font-size: $primary-text_size;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: $text-color;
+}
+
+header {
+  position: relative;
+}
+
+section {
+  margin-top: 84px;
+}
