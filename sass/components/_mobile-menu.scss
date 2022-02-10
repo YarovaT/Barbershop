@@ -1,0 +1,39 @@
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 70%;
+  min-height: 100vh;
+  height: 100%;
+  padding: 118px 31px 0px 40px;
+
+  background-color: $primary-color;
+  box-shadow: -4px 0px 8px rgba(0, 0, 0, 0.04), -2px 0px 4px rgba(0, 0, 0, 0.08),
+    -1px 0px 3px rgba(0, 0, 0, 0.16);
+
+  font-weight: $secondary-font_weight;
+  font-size: $desktop_font-size;
+  line-height: 1.39;
+  letter-spacing: 0.1em;
+  color: $title-color;
+  z-index: 3;
+}
+
+.menu__list {
+  margin-bottom: 64px;
+}
+
+.menu__item {
+  margin-bottom: 24px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.menu__item a {
+  color: inherit;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

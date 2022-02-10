@@ -1,0 +1,29 @@
+.subtitle {
+  position: relative;
+  margin-left: 80px;
+  font-weight: $secondary-font_weight;
+  font-size: $subtitle_font-size;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $label-color;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    right: 100%;
+    top: 50%;
+    background-color: $label-color;
+    margin: 0 20px 0 0;
+  }
+  &_dark {
+    color: #303030;
+    &::before {
+      background-color: #303030;
+    }
+  }
+  &__portfolio {
+    line-height: 1.91;
+  }
+}

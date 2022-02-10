@@ -1,0 +1,36 @@
+.nav-menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 32px;
+  }
+  & a {
+    z-index: 3;
+  }
+}
+
+.nav-menu__list {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav-menu__item a {
+  color: #fff;
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+    cursor: pointer;
+  }
+}

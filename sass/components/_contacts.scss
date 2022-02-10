@@ -1,0 +1,15 @@
+.contacts {
+  margin-bottom: 76px;
+}
+
+.contacts a {
+  color: inherit;
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+  }
+}
+
+.contacts .button {
+  margin-top: 24px;
+}

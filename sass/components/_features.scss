@@ -1,0 +1,45 @@
+.features {
+  font-size: $subtitle_font-size;
+  line-height: 1.36;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #303030;
+  }
+
+  &__item {
+    text-align: center;
+    flex-basis: calc(100% / 2 - 30px);
+    margin: 0 30px 30px 0;
+    padding: 20px 0 20px 0;
+    min-width: 193px;
+    height: 133px;
+    background: #f7f7f7;
+    font-weight: 600;
+    &:nth-child(2n) {
+      margin: 30px 0 0 0;
+    }
+  }
+
+  &__text {
+    margin: 20px 0 44px 0;
+    font-size: $desktop_font-size;
+    line-height: 1.67;
+  }
+
+  &__text_big {
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0.05em;
+    &::after {
+      content: "+";
+      font-size: $tablet_font-size;
+      line-height: 1.38;
+      color: #ff6c00;
+      top: 100%;
+      right: 0;
+    }
+  }
+}

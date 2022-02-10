@@ -18,12 +18,15 @@ $tablet-bg: #f7f7f7;
 
 // Font-size
 
-$primary-text_size: 14px;
-$secondary-text_size: 12px;
-$title-text_size: 42px;
-$label-text_size: 11px;
+$subtitle_font-size: 11px;
+// $secondary-text_size: 12px;
+// $primary-text_size: 14px;
+$tablet_font-size: 16px;
+$desktop_font-size: 18px;
+// $title-text_size: 42px;
+$tablet__title_font-size: 48px;
+$desktop__title_font-size: 72px;
 
 // Font-weight
-
 $secondary-font_weight: 600;
 $title-font_weight: 700;

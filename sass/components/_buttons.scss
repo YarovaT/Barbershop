@@ -1,0 +1,60 @@
+.button {
+  display: block;
+  width: 194px;
+  height: 40px;
+  border: 1px solid $accent-color;
+  border-radius: 25px;
+  background-color: transparent;
+  font-weight: $secondary-font_weight;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: $title-color;
+
+  &:hover,
+  &:focus {
+    background: #ff6c00;
+    color: #ffffff;
+  }
+}
+
+.about-section__button {
+  margin-top: 40px;
+  width: 160px;
+}
+
+.price__button {
+  width: 160px;
+  color: #ffffff;
+  margin: 50px auto 0 auto;
+}
+
+// Кнопка навигации
+
+.nav-menu__button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  z-index: 4;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
+
+  &_close {
+    display: none;
+  }
+}
+
+.nav-menu__button.is-open .nav-menu__button_close {
+  display: block;
+}
+
+.nav-menu__button.is-open .nav-menu__button_open {
+  display: none;
+}

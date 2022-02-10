@@ -1,0 +1,26 @@
+// Hero section
+
+.hero-section__content {
+  margin-top: -372px;
+  max-width: 70%;
+
+  @media screen and (min-width: $tablet) {
+    margin-top: -408px;
+    max-width: 58%;
+  }
+  @media screen and (min-width: $desktop) {
+    max-width: 45%;
+  }
+}
+
+.hero-section__text {
+  margin-top: 20px;
+  font-size: $tablet_font-size;
+  line-height: 1.62;
+  color: #9da4bd;
+
+  @media screen and (min-width: $desktop) {
+    font-size: $desktop_font-size;
+    line-height: 1.67;
+  }
+}

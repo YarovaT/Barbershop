@@ -1,0 +1,25 @@
+.section__portfolio {
+  margin-bottom: 84px;
+}
+
+.portfolio__cards {
+  margin-top: 44px;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -30px;
+  }
+
+  & li {
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
