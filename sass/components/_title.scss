@@ -1,11 +1,13 @@
 .title {
-  margin-top: 20px;
   font-family: $title-font-stack;
   font-weight: $title-font_weight;
   letter-spacing: 0.05em;
-  font-size: $tablet__title_font-size;
-  line-height: 1.17;
   color: #ffffff;
+
+  @media screen and (min-width: $mobile) {
+    font-size: $tablet__title_font-size;
+    line-height: 1.17;
+  }
 
   @media screen and (min-width: $desktop) {
     font-size: $desktop__title_font-size;

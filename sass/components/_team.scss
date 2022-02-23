@@ -1,16 +1,16 @@
 .team {
-  padding: 84px 0;
   background: #f7f7f7;
   color: #303030;
 
   &__list {
     margin-top: 44px;
-    min-width: 418px;
+    // min-width: 418px;
 
     @media screen and (min-width: $desktop) {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 46px;
     }
   }
 
@@ -21,6 +21,10 @@
     &:last-child {
       margin-bottom: 0;
     }
+
+    @media screen and (min-width: $desktop) {
+      margin-bottom: 0;
+    }
   }
 
   &__cards {
@@ -28,6 +32,7 @@
 
     &__name {
       font-size: $desktop_font-size;
+      font-weight: 400;
       line-height: 1.39;
       text-align: center;
       color: $title-color;
@@ -36,12 +41,8 @@
     &__text {
       padding-top: 8px;
       color: #ff6c00;
+      font-size: 14px;
       line-height: 1.36;
     }
   }
 }
-
-// display: flex;
-// align-items: center;
-// justify-content: center;
-// width: calc(100% / 3 - 2 * 30px);

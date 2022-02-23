@@ -1,49 +1,43 @@
 .price {
   background: url("../../images/mobile/background.png") center/cover no-repeat
     rgba(17, 19, 25, 1);
-  padding: 84px 0;
+
   &__title {
     font-size: 42px;
   }
+
   &__content {
-    margin-top: 44px;
+    margin: 44px 0 50px 0;
     padding: 30px;
     background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
   }
+
   &__list li {
     margin-bottom: 20px;
     &:last-child {
       margin-bottom: 0;
     }
   }
+
   &__item {
     line-height: 2.14;
     color: #9da4bd;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
   }
 }
 
-.price__horizontal-line {
-  overflow: hidden;
-  text-align: center;
-}
-.price__horizontal-line:before,
-.price__horizontal-line:after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 1px;
+.price__text {
   position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
-.price__horizontal-line {
-  right: 0.5em;
-  margin-left: -50%;
-}
-.price__horizontal-line {
-  left: 0.5em;
-  margin-right: -50%;
+  &::after {
+    display: block;
+    width: 100%;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid rgba(157, 164, 189, 0.12);
+    top: 25px;
+    left: 110px;
+  }
 }

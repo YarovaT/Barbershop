@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
     <title>Барбершоп</title>
     <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="preload" href="./js/menu.js" as="script" />
@@ -78,9 +81,14 @@
               </li>
             </ul>
             <!-- контакты -->
-            <div class="contacts">
+            <div>
               <a href="tel:+380441111111">+38 044 111 11 11</a>
-              <button class="button" type="button">онлайн-запись</button>
+              <button
+                class="button button_big-width button_dark-text"
+                type="button"
+              >
+                онлайн-запись
+              </button>
             </div>
             <!-- социальные сети -->
             <div class="social-links">
@@ -152,7 +160,7 @@
               клиентами "на одной волне". Поэтому, мы всегда готовы
               усовершенствовать каждого, кто к нам приходит!
             </p>
-            <button class="button about-section__button" type="button">
+            <button class="button button_dark-text" type="button">
               онлайн-запись
             </button>
           </div>
@@ -165,9 +173,9 @@
           <div class="price__content">
             <ul class="price__list">
               <li class="price__item">
-                <p>Мужская стрижка</p>
-                <span class="price__horizontal-line"></span>
-                <p>от 300 грн.</p>
+                <p class="price__text">Мужская стрижка</p>
+
+                <p class="price__text-count">от 300 грн.</p>
               </li>
               <li class="price__item">
                 <p class="price__text">Стрижка бороды</p>
@@ -234,7 +242,7 @@
           </ul>
         </div>
       </section>
-      <section class="team">
+      <section class="section team">
         <div class="container">
           <p class="subtitle subtitle_dark">
             для настоящих ценителей атмосферы
@@ -289,8 +297,10 @@
                   "
                 />
                 <img
-                  src="./images/mobile/extreme-barber-JS.jpg"
+                  src="./images/tablet/extreme-barber-JS.jpg"
                   alt="Процесс бритья затылка мастером"
+                  width="450"
+                  height="346"
                 />
               </picture>
               <div class="team__cards">
@@ -299,28 +309,44 @@
                 <ul class="social-links__icons">
                   <li class="social-links__icon">
                     <a href="#">
-                      <svg width="20" height="20">
+                      <svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#">
-                      <svg width="20" height="20">
+                      <svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#"
-                      ><svg width="20" height="20">
+                      ><svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#"
-                      ><svg width="20" height="20">
+                      ><svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -377,8 +403,10 @@
                 />
 
                 <img
-                  src="../images/mobile/extreme-barber-MD.jpg "
+                  src="../images/tablet/extreme-barber-MD.jpg "
                   alt="Мастер барбершопа Мишель До"
+                  width="450"
+                  height="346"
                 />
               </picture>
               <div class="team__cards">
@@ -387,28 +415,44 @@
                 <ul class="social-links__icons">
                   <li class="social-links__icon">
                     <a href="#">
-                      <svg width="20" height="20">
+                      <svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#">
-                      <svg width="20" height="20">
+                      <svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#"
-                      ><svg width="20" height="20">
+                      ><svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#"
-                      ><svg width="20" height="20">
+                      ><svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -464,8 +508,10 @@
                   "
                 />
                 <img
-                  src="./images/mobile/extreme-barber-AB.jpg"
+                  src="./images/tablet/extreme-barber-AB.jpg"
                   alt="Мастер барбершопа Алан Блэк"
+                  width="450"
+                  height="346"
                 />
               </picture>
               <div class="team__cards">
@@ -474,28 +520,44 @@
                 <ul class="social-links__icons">
                   <li class="social-links__icon">
                     <a href="#">
-                      <svg width="20" height="20">
+                      <svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#">
-                      <svg width="20" height="20">
+                      <svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#"
-                      ><svg width="20" height="20">
+                      ><svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-links__icon">
                     <a href="#"
-                      ><svg width="20" height="20">
+                      ><svg
+                        class="social-links__icon_active"
+                        width="20"
+                        height="20"
+                      >
                         <use href="./images/sprite.svg#icon-linkedin"></use>
                       </svg>
                     </a>
@@ -506,7 +568,7 @@
           </ul>
         </div>
       </section>
-      <section class="section section__portfolio">
+      <section class="section">
         <div class="container">
           <p class="subtitle subtitle_dark subtitle__portfolio">
             На латинском языке “барба” означает “борода”
@@ -728,52 +790,67 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="section footer">
       <div class="container">
-        <h3 class="title footer__title">Онлайн-запись</h3>
-        <form name="signup_form">
+        <h3 class="title title_middle">Онлайн-запись</h3>
+        <form name="signup_form" type="submit" class="footer__form">
           <label>
-            <input type="text" name="username" placeholder="Имя*"
+            <input
+              type="text"
+              name="username"
+              placeholder="Имя*"
+              class="footer__form__input"
           /></label>
-
           <label
-            ><input type="tel" name="phone-number" placeholder="Телефон*" />
+            ><input
+              type="tel"
+              name="tel"
+              placeholder="Телефон*"
+              class="footer__form__input"
+            />
           </label>
-
-          <label for="">
+          <label>
             <textarea
               name="message"
-              rows="5"
+              rows="4"
               placeholder="сообщение"
+              class="footer__form__textarea"
             ></textarea>
           </label>
 
-          <button type="submit">отправить</button>
+          <button type="submit" class="button">отправить</button>
         </form>
-        <h3 class="title contacts__title">Контакты</h3>
-        <address>
-          <p>
-            <svg width="24" height="24">
-              <use href="./images/sprite.svg#icon-map-pin"></use>
-            </svg>
-            ул. Васильковая, 7А Киев, 08132
-          </p>
-
-          <a href="tel:+380441111111">
-            <svg width="24" height="24">
-              <use href="./images/sprite.svg#icon-phone"></use>
-            </svg>
-            +38 044 111 11 11</a
-          >
-          <a href="mailto:barbershop@email.com">
-            <svg width="24" height="24">
-              <use href="./images/sprite.svg#icon-mail"></use>
-            </svg>
-            barbershop@email.com</a
-          >
-        </address>
-        <h2 class="subtitle">время работы</h2>
-        <p>Ежедневно с 9:00 до 22:00</p>
+        <section class="section contacts__section">
+          <h3 class="title contacts__title">Контакты</h3>
+          <address class="contacts__address">
+            <div class="contacts__address__content">
+              <svg width="24" height="24">
+                <use href="./images/sprite.svg#icon-map-pin"></use>
+              </svg>
+              <p>ул. Васильковая, 7А Киев, 08132</p>
+            </div>
+            <div class="contacts__address__content">
+              <a href="tel:+380441111111" class="contacts__link">
+                <svg width="24" height="24">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+                +38 044 111 11 11</a
+              >
+            </div>
+            <div class="contacts__address__content">
+              <a href="mailto:barbershop@email.com" class="contacts__link">
+                <svg width="24" height="24">
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+                barbershop@email.com</a
+              >
+            </div>
+          </address>
+          <div>
+            <h2 class="subtitle">время работы</h2>
+            <p>Ежедневно с 9:00 до 22:00</p>
+          </div>
+        </section>
       </div>
     </footer>
 

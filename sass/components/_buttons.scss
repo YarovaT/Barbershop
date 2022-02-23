@@ -1,6 +1,6 @@
 .button {
   display: block;
-  width: 194px;
+  width: 160px;
   height: 40px;
   border: 1px solid $accent-color;
   border-radius: 25px;
@@ -10,24 +10,26 @@
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: $title-color;
+  color: #ffffff;
+  margin: 0 auto;
 
   &:hover,
   &:focus {
     background: #ff6c00;
-    color: #ffffff;
   }
 }
 
-.about-section__button {
-  margin-top: 40px;
-  width: 160px;
+.button_big-width {
+  width: 194px;
 }
 
-.price__button {
-  width: 160px;
-  color: #ffffff;
-  margin: 50px auto 0 auto;
+.button_dark-text {
+  color: $title-color;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
 }
 
 // Кнопка навигации

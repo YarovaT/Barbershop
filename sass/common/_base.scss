@@ -6,12 +6,10 @@ body {
   text-rendering: optimizeSpeed;
   position: relative;
   font-family: $font-stack;
-  font-size: 14px;
-  line-height: 1.86;
   letter-spacing: 0.02em;
   color: $text-color;
 }
 
 .section {
-  margin-top: 84px;
+  padding: 84px 0;
 }
